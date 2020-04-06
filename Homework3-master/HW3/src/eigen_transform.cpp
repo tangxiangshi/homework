@@ -6,14 +6,14 @@
 Eigen::Vector3d rad2deg(Eigen::Vector3d radians)
 {
     // Implement your code here
-    radians = (radians / PI) * 180;// ����ת�Ƕ�
+    radians = (radians / PI) * 180;// »¡¶È×ª½Ç¶È
     return radians;
 }
 
 Eigen::Vector3d deg2rad(Eigen::Vector3d degrees)
 {
     // Implement your code here
-    degrees = (degrees / 180) * PI;// �Ƕ�ת����
+    degrees = (degrees / 180) * PI;// ½Ç¶È×ª»¡¶È
     return degrees;
 }
 
@@ -70,7 +70,7 @@ int main(int argc, char **argv)
 
         // Apply rotation to point with quaternion
         // Implement your code here
-        tmp_point = Q_tmp * world_point;
+        world_point = Q_tmp * world_point;
 
 
 
