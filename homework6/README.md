@@ -1,4 +1,4 @@
 
-<img src="https://github.com/Robotics-Aerial-Robots/Homework6/blob/master/Figures/plot.PNG" width="80%" height="40%">
+<img src="https://github.com/tangxiangshi/homework/blob/master/homework6/Figures/plot.gif" width="80%" height="40%">
 
 
