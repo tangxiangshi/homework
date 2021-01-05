@@ -30,7 +30,7 @@ int main(int argc, char** argv)
   {
     geometry_msgs::TransformStamped transformStamped;
     try{
-      transformStamped = tfBuffer.lookupTransform("turtle2", "turtle1", ros::Time(0));
+      transformStamped = tfBuffer.lookupTransform("/turtle2", "/carrot1", ros::Time(0));
     }
     catch(tf2::TransformException &ex){
       ROS_WARN("%s",ex.what());
